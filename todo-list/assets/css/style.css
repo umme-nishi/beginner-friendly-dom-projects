@@ -1,0 +1,16 @@
+/* reset code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
