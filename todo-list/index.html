@@ -5,8 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo List</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
   </head>
   <body>
-    <h1>Start design todo list</h1>
+    <div class="main">
+      <div class="section">
+        <h2>TODO LIST</h2>
+        <div class="search-wrap">
+          <div class="search-bar">
+            <input type="text" placeholder="Search note..." class="search" />
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="button">
+            <button class="button1">
+              ALL <i class="fas fa-caret-right"></i>
+            </button>
+            <button class="button2"><i class="fa-regular fa-moon"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-trash-can"></i>
+        <i class="fa-solid fa-pen"></i>
+      </div>
+      <div class="note">
+        <table>
+          <tr>
+            <td>
+              <b><input type="checkbox" name="" />Note #1</b> <br />
+              <hr />
+              <input type="checkbox" name="" /><del><b>Note #2 </b></del><br />
+              <hr />
+              <input type="checkbox" name="" /><b>Note #3 </b><br />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <button class="button3"><i class="fa-regular fa-plus"></i></button>
+    </div>
   </body>
 </html>

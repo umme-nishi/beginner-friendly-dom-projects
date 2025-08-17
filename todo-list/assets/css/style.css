@@ -14,3 +14,145 @@ a {
 li {
   list-style: none;
 }
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 750px;
+  height: 710px;
+}
+h2 {
+  text-align: center;
+}
+.search-bar {
+  width: 595px;
+  height: 38px;
+  border: 1px solid purple;
+  position: absolute;
+  top: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search {
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+.note {
+  width: 520px;
+  height: 147px;
+}
+
+.button {
+  width: 137px;
+  top: 50px;
+  position: absolute;
+  display: flex;
+  justify-self: end;
+  justify-content: space-between;
+}
+
+.button1 {
+  width: 85px;
+  height: 38px;
+  background-color: blue;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+.button2 {
+  width: 38px;
+  height: 38px;
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.icon {
+  width: 62px;
+  height: 18px;
+  border: 1px solid black;
+  color: #cdcdcd;
+  position: absolute;
+  top: 120px;
+  left: 780px;
+  border: none;
+}
+
+table {
+  top: 100px;
+  position: absolute;
+  font-size: 20px;
+  left: 400px;
+  line-height: 50px;
+}
+hr {
+  width: 420px;
+}
+.button3 {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  position: absolute;
+  top: 650px;
+  border-radius: 50%;
+  position: absolute;
+  left: 990px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 400px;
+    height: 400px;
+  }
+
+  .search-bar {
+    width: 250px;
+    height: 38px;
+  }
+
+  .note {
+    width: 250px;
+    height: 38px;
+    position: absolute;
+    right: 550px;
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 62px;
+    height: 18px;
+    border: 1px solid black;
+    color: #cdcdcd;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    border: none;
+  }
+  hr {
+    width: 300px;
+  }
+
+  .button3 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    top: 350px;
+    border-radius: 50%;
+    position: absolute;
+    left: 350px;
+  }
+}
