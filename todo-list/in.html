@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- start create todo area -->
+    <button id="create_todo"><i class="fa-regular fa-plus"></i></button>
+    <!-- end create todo area -->
+
+    <header class="container">
+      <h1>Todo List</h1>
+      <section>
+        <div>
+          <form>
+            <input type="text" placeholder="Search note..." />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div>
+          <select>
+            <option value="all">All</option>
+            <option value="complete">Complete</option>
+            <option value="incomplete">Incomplete</option>
+          </select>
+        </div>
+        <div>
+          <button class="toggle-theme">
+            <i class="fa-regular fa-moon"></i>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main class="container">
+      <img src="./assets/images/bg.png" alt="" />
+      <p>Empty...</p>
+    </main>
+  </body>
+</html>
